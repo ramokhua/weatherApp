@@ -1,41 +1,107 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
+ body {
+                font-family: Arial, sans-serif;
+                background-color: #f9f9f9;
+                margin: auto;
+                padding: 10px ;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
 
-.container {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
+            .weather-app {
+                background-color: white;
+                padding: 20px;
+                border-radius: 15px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                max-width: 900px;
+                text-align: center;
+            }
 
-input {
-    padding: 10px;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
+            .weather-app h1 {
+                font-size: 2rem;
+                margin: auto;
+            }
 
-button {
-    padding: 10px 15px;
-    border: none;
-    background-color: #007bff;
-    color: white;
-    border-radius: 4px;
-    cursor: pointer;
-}
+            .weather-app .city {
+                font-size: 1.5rem;
+                margin: 10px 0;
+            }
 
-button:hover {
-    background-color: #0056b3;
-}
+            .search-bar {
+                display: flex;
+                margin-bottom: 20px;
+            }
 
-#weatherResult {
-    margin-top: 20px;
-}
+            .search-bar input {
+                width: 80%;
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                font-size: 1rem;
+            }
+
+            .search-bar button {
+                width: 20%;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: #7b4ed7;
+                color: white;
+                border: none;
+                font-size: 1rem;
+                cursor: pointer;
+            }
+
+            .temperature {
+                font-size: 4rem;
+                font-weight: bold;
+                margin: 10px 0;
+            }
+
+            .weather-condition {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .weather-condition img {
+                width: 50px;
+                margin-right: 10px;
+            }
+
+            .humidity,
+            .wind {
+                font-size: 1rem;
+                color: gray;
+            }
+
+            .forecast {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+            }
+
+            .forecast .day {
+                text-align: center;
+                font-size: 1rem;
+            }
+
+            .forecast img {
+                width: 40px;
+                margin: 5px 0;
+            }
+
+            footer {
+                margin-top: 20px;
+                font-size: 0.8rem;
+                color: gray;
+            }
+
+            footer a {
+                color: #7b4ed7;
+                text-decoration: none;
+            }
+
+            img{
+                text-align: center;
+            }
