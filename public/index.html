@@ -1,65 +1,37 @@
 <!DOCTYPE html>
-  <html lang="en">
+<html lang="en">
   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Weather App</title>
-      <link rel="stylesheet" href="../styles/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>My weather application</title>
   </head>
   <body>
-      <div class="weather-app">
-            <img src="https://github.com/shecodesio/weather/blob/master/public/images/logo.png?raw=true" 
-            alt=""
-            width="250">
-            <div class="search-bar">
-                <input type="text" placeholder="Enter a city...">
-                <button>Search</button>
-            </div>
-            
-            <div class="city">San Francisco</div>
-            <div>Wednesday 08:17, broken clouds</div>
-            
-            <div class="temperature">15°C</div>
-            
-            <div class="weather-condition">
-                <img src="cloud-icon.png" alt="Cloud Icon">
-                <div>broken clouds</div>
-            </div>
-            
-            <div class="humidity">Humidity: 86%</div>
-            <div class="wind">Wind: 6.26km/h</div>
-            
-            <div class="forecast">
-                <div class="day">
-                    <div>Tue</div>
-                    <img src="cloud-icon.png" alt="Cloud Icon">
-                    <div>16° 14°</div>
-                </div>
-                <div class="day">
-                    <div>Wed</div>
-                    <img src="sunny-icon.png" alt="Sunny Icon">
-                    <div>19° 13°</div>
-                </div>
-                <div class="day">
-                    <div>Thu</div>
-                    <img src="sunny-icon.png" alt="Sunny Icon">
-                    <div>18° 14°</div>
-                </div>
-                <div class="day">
-                    <div>Fri</div>
-                    <img src="partly-cloudy-icon.png" alt="Partly Cloudy Icon">
-                    <div>18° 14°</div>
-                </div>
-                <div class="day">
-                    <div>Sat</div>
-                    <img src="partly-cloudy-icon.png" alt="Partly Cloudy Icon">
-                    <div>18° 14°</div>
-                </div>
-            </div>
-
-            <footer>
-                This project was coded by Boitsholo Ramokhua 
-            </footer>
+    <header>
+      <form>
+        <input type="search" placeholder="Enter a city.." required />
+        <input type="submit" value="Search" />
+      </form>
+    </header>
+    <main>
+      <div class="current-weather">
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Saturday 15:32, moderate rain <br />
+            Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+          </p>
         </div>
+        <div>☀️ 14°C</div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        This project was coded by
+        <a href="#" target="_blank">Boitsholo Ramokhua</a> and is
+        <a href="" target="_blank"> on GitHub</a> and
+        <a href="#" target="_blank">hosted on Netlify</a>
+      </p>
+    </footer>
   </body>
 </html>
