@@ -1,107 +1,97 @@
- body {
-                font-family: Arial, sans-serif;
-                background-color: #f9f9f9;
-                margin: auto;
-                padding: 10px ;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-            }
+body {
+  font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
 
-            .weather-app {
-                background-color: white;
-                padding: 20px;
-                border-radius: 15px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                max-width: 900px;
-                text-align: center;
-            }
+header {
+  background-color: beige;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
-            .weather-app h1 {
-                font-size: 2rem;
-                margin: auto;
-            }
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 
-            .weather-app .city {
-                font-size: 1.5rem;
-                margin: 10px 0;
-            }
+input[type="search"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
 
-            .search-bar {
-                display: flex;
-                margin-bottom: 20px;
-            }
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #8064e9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 200ms ease;
+}
 
-            .search-bar input {
-                width: 80%;
-                padding: 10px;
-                border-radius: 5px;
-                border: 1px solid #ccc;
-                font-size: 1rem;
-            }
+input[type="submit"]:hover {
+  background-color: #5e41a7;
+}
 
-            .search-bar button {
-                width: 20%;
-                padding: 10px;
-                border-radius: 5px;
-                background-color: #7b4ed7;
-                color: white;
-                border: none;
-                font-size: 1rem;
-                cursor: pointer;
-            }
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
 
-            .temperature {
-                font-size: 4rem;
-                font-weight: bold;
-                margin: 10px 0;
-            }
+h1 {
+  font-size: 34px;
+  line-height: 48px;
+  margin: 0;
+  color: #272044;
+}
 
-            .weather-condition {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
+p {
+  font-size: 18px;
+  line-height: 28px;
+  font-family: PT Mono, monospace;
+  margin: 0;
+}
 
-            .weather-condition img {
-                width: 50px;
-                margin-right: 10px;
-            }
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
 
-            .humidity,
-            .wind {
-                font-size: 1rem;
-                color: gray;
-            }
+footer a {
+  color: #8064e9;
+  text-decoration: none;
+}
 
-            .forecast {
-                display: flex;
-                justify-content: space-between;
-                margin-top: 20px;
-            }
+footer a:hover {
+  text-decoration: underline;
+}
 
-            .forecast .day {
-                text-align: center;
-                font-size: 1rem;
-            }
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
 
-            .forecast img {
-                width: 40px;
-                margin: 5px 0;
-            }
+  p {
+    font-size: 16px;
+  }
 
-            footer {
-                margin-top: 20px;
-                font-size: 0.8rem;
-                color: gray;
-            }
-
-            footer a {
-                color: #7b4ed7;
-                text-decoration: none;
-            }
-
-            img{
-                text-align: center;
-            }
+  input[type="search"],
+  input[type="submit"] {
+    font-size: 14px;
+  }
+}
