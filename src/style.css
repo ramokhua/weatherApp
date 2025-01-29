@@ -62,6 +62,25 @@ main {
     font-weight: 500;
 }
 
+/* Add styles for the forecast section */
+.weather-app-forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.weather-app-forecast-day {
+    text-align: center;
+}
+
+.weather-app-forecast-day img {
+    width: 50px;
+    height: 50px;
+}
+
+.weather-app-forecast-day p {
+    margin: 5px 0;
+}
 .weather-app-details strong {
     color: #f65282;
 }
