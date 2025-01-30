@@ -77,7 +77,7 @@ body {
   
   .weather-app-temperature {
     font-size: 88px;
-    line-height: 88px;
+    line-height: 100px;
     font-weight: bold;
   }
   
