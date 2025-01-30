@@ -69,7 +69,6 @@ body {
   
   .weather-app-temperature-container {
     display: flex;
-    justify-content: space-between; 
   }
   
   .weather-app-icon {
