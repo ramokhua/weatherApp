@@ -63,10 +63,6 @@ body {
     font-weight: 500;
   }
   
-  .weather-app-details-container {
-    flex: 1;
-  }
-  
   .weather-app-details strong {
     color: #f65282;
   }
