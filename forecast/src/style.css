@@ -46,8 +46,9 @@ body {
   
   .weather-app-data {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    margin: 20px;
   }
   
   .weather-app-city {
@@ -76,6 +77,10 @@ body {
   .weather-app-icon {
     width: 88px;
     height: 88px;
+  }
+  
+  .weather-app-temperature-container {
+    display: flex;
   }
   
   .weather-app-temperature {
