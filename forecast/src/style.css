@@ -79,10 +79,6 @@ body {
     height: 88px;
   }
   
-  .weather-app-temperature-container {
-    display: flex;
-  }
-  
   .weather-app-temperature {
     font-size: 88px;
     line-height: 88px;
