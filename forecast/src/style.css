@@ -91,6 +91,7 @@ body {
     justify-content: space-around;
     margin-top: 30px;
     width: 100%;
+    flex-direction: row;
   }
   
   .weather-forecast-date {
