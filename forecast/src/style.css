@@ -53,6 +53,7 @@ main {
 
 .weather-app-details-container {
   flex: 1;
+  width: 100%;
 }
 
 .weather-app-city {
