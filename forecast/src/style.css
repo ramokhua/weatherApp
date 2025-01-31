@@ -46,6 +46,7 @@ body {
   
   .weather-app-data {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
   }
   
@@ -72,6 +73,8 @@ body {
   
   .weather-app-temperature-container {
     display: flex;
+    flex: 1;
+    flex-direction: row;
   }
   
   .weather-app-icon {
