@@ -46,7 +46,6 @@ main {
 
 .weather-app-data {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -69,8 +68,6 @@ main {
 
 .weather-app-temperature-container {
   display: flex;
-  flex: 1;
-  flex-direction: row;
 }
 
 .weather-app-icon {
@@ -89,13 +86,10 @@ main {
   font-size: 28px;
 }
 
-
 .weather-forecast {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
-  width: 100%;
-  flex-direction: row;
 }
 
 .weather-forecast-date {
